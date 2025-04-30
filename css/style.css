@@ -1,93 +1,50 @@
-.contact-flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px;
-    margin: 20px;
-}
-
-.flip-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s ease-in-out;
-    transform-style: preserve-3d;
-}
-
-.contact-flip-card:hover .flip-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-front,
-.flip-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    color: #fff;
-}
-
-.flip-front {
+ul {
+    list-style-type: none;
+  }
+  
+  .ftco-footer-widget {
     background-color: #222322;
-}
-
-.flip-front h3 {
-    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    padding: 20px 0;
+  }
+  
+  .ftco-footer-widget:hover {
+    transform: scale(1.03);
+  }
+  
+  .ftco-footer-widget ul {
+    padding-left: 0;
+  }
+  
+  .ftco-footer-widget ul li:not(.ftco-footer-widget ul li:first-child) {
+    margin-top: 15px;
+  }
+  
+  .office-title {
+    font-size: 26px;
     font-weight: 700;
-}
-
-.flip-back {
-    background-color: #222322;
-    transform: rotateY(180deg);
     color: #fff;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.flip-back ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
   }
   
-  .flip-back li {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 12px;
-    font-size: 15px;
-    line-height: 1.5;
-  }
-  
-  .flip-back .icon {
-    color: #fff;
+  .email-highlight {
+    font-weight: 600;
     font-size: 18px;
-    margin-top: 2px;
-  }
-  
-  .flip-back .text {
-    color: #fff;
-    font-weight: 500;
-  }
-  
-  .flip-back a {
-    color: #fff;
+    background-color: #8f653b;
+    padding: 10px 15px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: background 0.3s ease;
   }
-
-.flip-back h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
+  
+  .email-highlight:hover {
+    background-color: #2a5266;
+    color: #fff;
+  }
+  
