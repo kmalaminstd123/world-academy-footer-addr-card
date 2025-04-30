@@ -1,8 +1,8 @@
 ul {
     list-style-type: none;
-  }
-  
-  .ftco-footer-widget {
+}
+
+.ftco-footer-widget {
     background-color: #222322;
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
@@ -11,28 +11,28 @@ ul {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 1px;
-  }
+}
 
-  
-  .ftco-footer-widget ul {
+
+.ftco-footer-widget ul {
     padding-left: 0;
-  }
-  
-  .ftco-footer-widget ul li:not(.ftco-footer-widget ul li:first-child) {
+}
+
+.ftco-footer-widget ul li:not(.ftco-footer-widget ul li:first-child) {
     margin-top: 15px;
-  }
-  
-  .office-title {
+}
+
+.office-title {
     font-size: 26px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 6px;
     border-bottom: 2px solid #fff;
     display: inline-block;
     padding-bottom: 10px;
-  }
-  
-  .email-highlight {
+}
+
+.email-highlight {
     font-weight: 600;
     font-size: 18px;
     background-color: #8f653b;
@@ -40,10 +40,9 @@ ul {
     border-radius: 8px;
     text-decoration: none;
     transition: background 0.3s ease;
-  }
-  
-  .email-highlight:hover {
+}
+
+.email-highlight:hover {
     background-color: #2a5266;
     color: #fff;
-  }
-  
+}
